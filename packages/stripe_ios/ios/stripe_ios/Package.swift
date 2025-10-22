@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // .package(url: "https://github.com/stripe/stripe-ios-spm", exact: "24.23.0")
-        .package(url: "https://github.com/Agisight/stripe-ios-spm", exact: "24.23.0")
+        .package(url: "https://github.com/Agisight/stripe-ios-spm", exact: "lim")
     ],
     targets: [
         .target(
