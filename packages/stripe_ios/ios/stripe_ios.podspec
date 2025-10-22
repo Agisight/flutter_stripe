@@ -17,7 +17,9 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'Stripe', stripe_version
 #   s.dependency 'StripePaymentSheet', stripe_version
-  s.dependency 'StripePaymentSheet', "lim"
+  s.dependency 'StripePaymentSheet',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
   s.dependency 'StripePayments', stripe_version
   s.dependency 'StripePaymentsUI', stripe_version
   s.dependency 'StripeApplePay', stripe_version
