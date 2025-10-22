@@ -6,24 +6,38 @@ stripe_version = '~> 24.23.0'
 Pod::Spec.new do |s|
   s.name             = 'stripe_ios'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
-  s.description      = <<-DESC
-A new flutter plugin project.
-                       DESC
-  s.homepage         = 'http://example.com'
+  s.summary      = 'Flutter Stripe iOS plugin using Agisight fork'
+  s.description  = 'A customized version of Stripe iOS SDK via Agisight fork.'
+  s.homepage     = 'https://github.com/Agisight/flutter_stripe'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author       = { 'Agisight' => 'email2@example.com' }
   s.source           = { :path => '.' }
   s.dependency 'Flutter'
-  s.dependency 'Stripe', stripe_version
-#   s.dependency 'StripePaymentSheet', stripe_version
+  
+# ✅ Используем твой форк stripe-ios
+  s.dependency 'Stripe',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
+
   s.dependency 'StripePaymentSheet',
                :git => 'https://github.com/Agisight/stripe-ios.git',
                :branch => 'lim'
-  s.dependency 'StripePayments', stripe_version
-  s.dependency 'StripePaymentsUI', stripe_version
-  s.dependency 'StripeApplePay', stripe_version
-  s.dependency 'StripeFinancialConnections', stripe_version
+
+  s.dependency 'StripePayments',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
+
+  s.dependency 'StripePaymentsUI',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
+
+  s.dependency 'StripeApplePay',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
+
+  s.dependency 'StripeFinancialConnections',
+               :git => 'https://github.com/Agisight/stripe-ios.git',
+               :branch => 'lim'
 
   s.subspec 'stripe_objc' do |ss|
     ss.source_files = 'stripe_ios/Sources/**/*.{m,h}'
