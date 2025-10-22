@@ -3,10 +3,10 @@
     {
       "identity" : "stripe-ios-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stripe/stripe-ios-spm",
+      "location" : "https://github.com/Agisight/stripe-ios.git",
       "state" : {
         "revision" : "4f322eb59a7f49a239a36078357c4cac7dac07cd",
-        "version" : "24.16.1"
+        "version" : "lim"
       }
     }
   ],
