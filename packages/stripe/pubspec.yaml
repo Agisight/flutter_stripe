@@ -24,7 +24,9 @@ dependencies:
   meta: ^1.8.0
   stripe_android: ^12.0.1
   stripe_ios:
-    path: packages/stripe_ios
+    git:
+      url: https://github.com/Agisight/stripe-ios.git
+      ref: lim
   stripe_platform_interface: ^12.0.0
 dev_dependencies:
   flutter_test:
