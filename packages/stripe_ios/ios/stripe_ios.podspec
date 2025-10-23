@@ -1,4 +1,4 @@
-stripe_version = '~> 24.23.0'
+stripe_version = '~> 24.24.4'
 
 Pod::Spec.new do |s|
   s.name             = 'stripe_ios'
