@@ -1,4 +1,5 @@
 name: flutter_stripe
+version: 12.0.2
 
 environment:
   sdk: '>=3.8.1 <4.0.0'
