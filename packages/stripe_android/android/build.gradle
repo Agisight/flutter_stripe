@@ -69,3 +69,9 @@ dependencies {
     // Users need to declare this dependency on their own, otherwise all methods are a no-op
     compileOnly 'com.stripe:stripe-android-issuing-push-provisioning:1.1.0'
 }
+
+configurations.all {
+    resolutionStrategy {
+        force "com.github.Agisight:stripe-android:lim-dc4117ad7b-1"
+    }
+}
