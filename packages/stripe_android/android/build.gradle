@@ -8,6 +8,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 
     dependencies {
@@ -52,7 +53,8 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.12.0'
 
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
-    implementation "com.stripe:stripe-android:$stripe_version"
+    // implementation "com.stripe:stripe-android:$stripe_version"
+    api "com.github.Agisight:stripe-android:1.0.0-lim"
     implementation "com.stripe:financial-connections:$stripe_version"
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
