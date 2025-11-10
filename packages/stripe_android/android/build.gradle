@@ -72,6 +72,6 @@ dependencies {
 
 configurations.all {
     resolutionStrategy {
-        force "com.github.Agisight:stripe-android:lim-dc4117ad7b-1"
+        force "com.github.Agisight:stripe-android:lim-e7ad53c703-1"
     }
 }
