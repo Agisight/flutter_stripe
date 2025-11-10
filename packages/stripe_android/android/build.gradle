@@ -60,7 +60,7 @@ dependencies {
     implementation "androidx.activity:activity-compose:1.8.2"
     
     // ViewBinding
-    implementation "androidx.viewbinding:viewbinding:8.2.0"
+    implementation "androidx.viewbinding:viewbinding:8.1.0"
     
     // Lifecycle
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0"
