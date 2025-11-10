@@ -55,7 +55,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
     // implementation "com.stripe:stripe-android:$stripe_version"
     // api "com.github.Agisight:stripe-android:1.0.0-lim"
-    api "com.github.Agisight:stripe-android:lim-8e0b1b6597-1"
+    api "com.github.Agisight:stripe-android:lim-SNAPSHOT"
     // api "com.github.Agisight:payments-ui-core:1.0.0-lim"
     implementation "com.stripe:financial-connections:$stripe_version"
     implementation 'com.google.android.material:material:1.6.0'
@@ -72,6 +72,6 @@ dependencies {
 
 configurations.all {
     resolutionStrategy {
-        force "com.github.Agisight:stripe-android:lim-8e0b1b6597-1"
+        force "com.github.Agisight:stripe-android:lim-SNAPSHOT"
     }
 }
