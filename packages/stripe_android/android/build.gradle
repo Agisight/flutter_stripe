@@ -1,6 +1,5 @@
 group 'com.flutter.stripe'
-// version '1.0-SNAPSHOT'
-version 'lim-80ac8c4e27-1'
+version '1.0-SNAPSHOT'
 
 buildscript {
     ext.kotlin_version = '1.8.0'
@@ -54,8 +53,7 @@ dependencies {
 
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
     // implementation "com.stripe:stripe-android:$stripe_version"
-    // api "com.github.Agisight:stripe-android:lim-SNAPSHOT"
-    api "com.github.Agisight:stripe-android:lim-80ac8c4e27-1"
+    api "com.github.Agisight:stripe-android:lim-SNAPSHOT"
     implementation "com.stripe:financial-connections:$stripe_version"
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
@@ -72,6 +70,6 @@ dependencies {
 // Защита от конфликтов
 configurations.all {
     resolutionStrategy {
-        force "com.github.Agisight:stripe-android:lim-80ac8c4e27-1"
+        force "com.github.Agisight:stripe-android:lim-SNAPSHOT"
     }
 }
