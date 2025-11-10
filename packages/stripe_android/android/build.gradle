@@ -88,5 +88,6 @@ dependencies {
 configurations.all {
     resolutionStrategy {
         force "com.github.Agisight:stripe-android:lim-SNAPSHOT"
+        force "androidx.viewbinding:viewbinding:8.1.0"
     }
 }
